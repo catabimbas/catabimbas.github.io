@@ -1,0 +1,29 @@
+div#atrib{
+   position: relative;
+   margin-right: 75%;
+   left: 40%;
+   padding-top: 15px;
+   padding-bottom: 1px;
+   border-radius: 10px;
+   background-color: rgb(184, 184, 184);
+}
+div#atrib>input{
+    position:relative;
+    left: center;
+    align-items: center;
+    border-color: rgb(184, 184, 184);
+    border-radius: 3px;
+    border-style: none;
+    height: 50px;
+    width: 40px;
+    font-size: 190%;
+}
+div#atrib>p{
+    position: relative;
+    font-size: 90%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+button{
+    align-items: center;
+}
