@@ -19,10 +19,10 @@ function buttonF() {
     let lista = [FO, DE, CO, IN, SA, CA]
     for (let c = 0; c < 6; c++){
         if (isNaN(lista[c]) == true) {
-            alert('Digite apenas números')
+            console.log('Numero')
             break
         } else {
-            alert('Normal')
+            console.log('Normal')
             if (c == 5) {
                 apr()
             }

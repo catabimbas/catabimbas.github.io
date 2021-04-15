@@ -24,6 +24,8 @@ div#atrib>p{
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
-button{
-    align-items: center;
+.but_p2{
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
