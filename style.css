@@ -1,7 +1,9 @@
 div#atrib{
    position: relative;
-   margin-right: 75%;
-   left: 40%;
+   width: 35%;
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
    padding-top: 15px;
    padding-bottom: 1px;
    border-radius: 10px;
@@ -10,7 +12,9 @@ div#atrib{
 div#atrib>input{
     position:relative;
     left: center;
-    align-items: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
     border-color: rgb(184, 184, 184);
     border-radius: 3px;
     border-style: none;
@@ -24,8 +28,12 @@ div#atrib>p{
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
-.but_p2{
-    position: relative;
-    display: flex;
-    justify-content: center;
+
+#but_p2{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65px;
+    height: 50px;
+    border-radius: 10px;
 }
