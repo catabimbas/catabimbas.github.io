@@ -44,6 +44,10 @@ div#atrib>p{
     background: url(img/seta.png);
     background-color: rgb(214, 213, 213);
 }
+#but_p2{
+    position:relative;
+    top: 7px;
+}
 #but_p2:hover{
     cursor: pointer;
     transition-duration: 250ms;
