@@ -13,26 +13,32 @@ function buttonF() {
     let PO = document.querySelector('input#PO')
     let ED = document.querySelector('input#ED')
     let SO = document.querySelector('input#SO')
-    if (FO.value == '' || DE.value == '' || CO.value == '' || IN.value == '' || SA.value == '' || CA.value == '' || PO.value == '') {
-        alert('Algum campo está vazio')
-    } else {
-        FO = Number(FO.value)
-        DE = Number(DE.value)
-        CO = Number(CO.value)
-        IN = Number(IN.value)
-        SA = Number(SA.value)
-        CA = Number(CA.value)
-        let lista = [FO, DE, CO, IN, SA, CA]
-        for (let c = 0; c < 6; c++){
-            if (isNaN(lista[c]) == true) {
-                console.log('Numero')
-                break
-            } else {
-                console.log('Normal')
-                if (c == 5) {
-                    apr()
-                }
-            }
+    let lista = [
+        FO.value,
+        CO.value,
+        TA.value,
+        DE.value,
+        AP.value,
+        IN.value,
+        PO.value,
+        ED.value,
+        SO.value
+    ]
+    for (let c = 0; c < lista.length ; c++){
+        if (lista[c] == '' || isNaN(lista[c]) == true) {
+            alert('Verifique se não deixou algum campo vazio ou colocou alguma letra')
+            break
+        } else if (c >= lista.length-1) {
+            FO = Number(FO.value)
+            CO = Number(CO.value)
+            TA = Number(TA.value)
+            DE = Number(DE.value)
+            AP = Number(AP.value)
+            IN = Number(IN.value)
+            PO = Number(PO.value)
+            ED = Number(ED.value)
+            SO = Number(SO.value)
+            apr()
         }
     }
         
