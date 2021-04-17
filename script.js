@@ -5,12 +5,14 @@ let button = document.querySelector('input#but_p2')
 button.addEventListener('click', buttonF)
 function buttonF() {
     let FO = document.querySelector('input#FO')
-    let DE = document.querySelector('input#DE')
     let CO = document.querySelector('input#CO')
+    let TA = document.querySelector('input#TA')
+    let DE = document.querySelector('input#DE')
+    let AP = document.querySelector('input#AP')
     let IN = document.querySelector('input#IN')
-    let SA = document.querySelector('input#SA')
-    let CA = document.querySelector('input#CA')
     let PO = document.querySelector('input#PO')
+    let ED = document.querySelector('input#ED')
+    let SO = document.querySelector('input#SO')
     if (FO.value == '' || DE.value == '' || CO.value == '' || IN.value == '' || SA.value == '' || CA.value == '' || PO.value == '') {
         alert('Algum campo está vazio')
     } else {
