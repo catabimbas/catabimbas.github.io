@@ -1,0 +1,5 @@
+div.circle{
+    padding: 1.5rem;
+    background-color: lightgray;
+    border-radius: 50%;
+}
