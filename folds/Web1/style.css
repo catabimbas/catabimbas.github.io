@@ -1,0 +1,12 @@
+html{
+    margin: auto;
+    display: table;
+    text-align: center;
+    background-color: rgb(20, 20, 19);
+}
+section{
+    background-color: rgb(114, 46, 139);
+    padding: 3rem;
+    color: white;
+    border-radius: 3rem;
+}

@@ -3,16 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora minutos</title>
-    <link rel="stylesheet" src="style.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    </style> 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
-        <h2>Minutos</h2>
-        <input type="number" class="minutes" value="">
-        <p class="convert"></p>
-    </section>
-    <script src="script.js"></script>
+    <nav class="navbar navbar-dark" style="background-color: #8133C6;">
+        <a class="navbar-brand" href="#" id="circle-nav"></a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">Current</span></a>
+            </li>
+        </ul>
+    </nav> <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm text-center" id="placeCards">
+                <!-- JS output -->     
+            </div>
+        </div>
+    </div>
+
 </body>
+<!-- Script -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+
 </html>
